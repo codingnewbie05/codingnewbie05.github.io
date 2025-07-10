@@ -18,7 +18,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/newbie-web-haven' : '/'}>
+      <BrowserRouter basename="/">
         <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
           <Navigation />
           <Routes>
